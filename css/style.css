@@ -1,4 +1,24 @@
-#mapid { height: 100vw; }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navtitle{
+    font-size: 1.4em;
+}
+
+#canvas{
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#mapid {
+    margin-top: 20px;
+    height: 500px; 
+    width: 100%; 
+}
 
 #mapPopupLeft, #mapPopupRight{
     float: left;

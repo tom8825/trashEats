@@ -3,6 +3,7 @@ $(document).ready(function () {
     var arrayLength = data.length;
     for (var i = 0; i < arrayLength; i++) {
         //get users geolocation and set map center
+        /*
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {
@@ -11,6 +12,7 @@ $(document).ready(function () {
         function showPosition(position) {
             mymap.setView(new L.LatLng(position.coords.latitude, position.coords.longitude), 9);
         }
+        */
 
         //log array data for testing
         //console.log(data[1]);
@@ -19,7 +21,7 @@ $(document).ready(function () {
         var hazardIcon = L.icon({
             iconUrl: 'images/marker-16.png',
 
-            iconSize: [16, 16],
+            iconSize: [32, 32],
 
         });
         //set rating image dependant on rating
